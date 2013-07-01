@@ -4,5 +4,7 @@ class PostsController < ApplicationController
 		@name = "Tina"
 	end
 
+	def show
+	end
 
 end
