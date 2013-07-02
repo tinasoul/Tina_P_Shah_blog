@@ -2,6 +2,7 @@ TinaPShahBlog::Application.routes.draw do
 
   get '/posts' => 'posts#index'
   get '/post/:id' => 'posts#show', as: 'post'
+  get '/posts/new' => 'posts#new', as: 'new_post'
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
